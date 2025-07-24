@@ -34,7 +34,7 @@ public class Si{
         double r = s.nextDouble();
         System.out.println("Enter time:");
         int t = s.nextInt();
-     
+        String s1 = s.nextLine().toLowerCase(); // Consume the newline character after nextInt()
         s.close();
         
         if (r<0){System.out.printf("Invalid input. Please enter a valid positive interest rate.");return;}
