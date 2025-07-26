@@ -20,7 +20,7 @@
 
 import java.util.*;
 
-public class Matrics {
+public class matrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
