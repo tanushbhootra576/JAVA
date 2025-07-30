@@ -6,13 +6,13 @@ public class Main {
         
         int pressure = s.nextInt();  
         float temp = s.nextFloat();  
-        s.nextLine(); // consume the leftover newline
+        s.nextLine(); 
         String status = s.nextLine();  
 
         System.out.println("Pressure = " + pressure);
         System.out.printf("Temperature = %.2f\n", temp);
         System.out.println("Sensor: " + status);
 
-        s.close(); // optional, good practice
+        s.close(); 
     }
 }
